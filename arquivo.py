@@ -47,7 +47,7 @@ def fazer_cadastro():
 # Função para exibir o menu de opções
 def exibir_menu():
     print()
-    print("== Controle de Armazenamento de Grãos ==")
+    print("== Saiba mais sobre o Armazenamento de Grãos ==")
     print()
     print("Opções disponíveis:")
     print("1. História do Produto")
@@ -131,12 +131,14 @@ def main():
                     exibir_solucao()
                 else:
                     reiniciar = input("Deseja reiniciar o programa? (s/n): ")
+                    while reiniciar.lower() not in ["s", "n"]:
+                        reiniciar = input("Resposta inválida. Deseja reiniciar o programa? (s/n): ")
                     if reiniciar.lower() == "s":
                         break
                     else:
                         print("Encerrando o programa...")
                         # Salvar usuários em usuarios.txt arquivo antes de encerrar
-                        with open("", "w") as arquivo:
+                        with open("usuarios.txt", "w") as arquivo:
                             for usuario, dados in usuarios.items():
                                 nome_completo = dados["nome_completo"]
                                 telefone = dados["telefone"]
