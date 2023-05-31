@@ -11,31 +11,40 @@ Giuliano Romaneto (RM: 99694)
 
 Descrição do Projeto
 
-O projeto de Controle de Armazenamento de Grãos é um sistema desenvolvido em Python que permite aos usuários realizar o gerenciamento eficiente do estoque de grãos. O sistema oferece funcionalidades como adicionar grãos, remover grãos e exibir a quantidade atual de grãos armazenados. Além disso, também apresenta informações sobre a história do produto, o problema enfrentado e a solução proposta.
+O projeto "Controle de Temperatura de Grãos" tem como objetivo desenvolver um sistema de controle de temperatura para armazenamento de grãos, visando evitar desperdícios e perdas causadas por condições inadequadas de temperatura. O programa oferece funcionalidades de login, cadastro, exibição da história do produto, apresentação dos desafios enfrentados e exibição da solução proposta.
+
+
+Funcionalidades
+
+O programa possui as seguintes funcionalidades:
+
+- Login: Permite que o usuário faça login no sistema utilizando um nome de usuário e senha válidos.
+- Cadastro: Permite que novos usuários se cadastrem no sistema, fornecendo informações como nome de usuário, nome completo, telefone, email e senha.
+- Exibir História do Produto: Apresenta a história e os objetivos do produto de controle de temperatura de grãos, destacando sua importância na preservação da qualidade dos grãos e na redução de desperdícios.
+- Exibir Desafio: Apresenta os desafios enfrentados no controle de temperatura de grãos, como a manutenção adequada da temperatura ambiente, prevenção de deterioração e proliferação de pragas, entre outros.
+- Exibir Solução: Apresenta a solução proposta pelo sistema de controle de temperatura de grãos, destacando seus recursos avançados, como monitoramento contínuo, ajuste automatizado da temperatura e alertas em tempo real.
+- Encerrar Programa: Finaliza a execução do programa de controle de temperatura de grãos.
 
 
 Instruções de Uso
 
-Certifique-se de ter o Python 3.x instalado em sua máquina.
+1- Faça o download do arquivo do programa temperatura_graos.py.
+2- Certifique-se de ter o Python instalado em seu sistema. Caso não tenha, faça o download e a instalação do Python versão 3.x.
+3- Execute o programa utilizando o seguinte comando no terminal:
+4- O programa exibirá um menu de opções. Selecione a opção desejada digitando o número correspondente e pressione Enter.
+5- Se já possuir um cadastro, selecione a opção de login e insira o nome de usuário e senha. Caso não possua um cadastro, selecione a opção de cadastro e preencha as informações solicitadas.
+6- Após o login ou cadastro, o programa exibirá o menu principal. Selecione as opções disponíveis para obter informações sobre o produto, desafios ou solução proposta.
+7- Para encerrar o programa, selecione a opção de encerramento no menu principal.
 
-Clone o repositório do projeto para sua máquina local.
 
-Abra um terminal ou prompt de comando e navegue até o diretório onde o código-fonte está localizado.
+Requisitos
 
-Execute o programa com o seguinte comando:
+Python 3.x instalado no sistema.
 
-Copy code
-python nome_do_arquivo.py
-Substitua "nome_do_arquivo.py" pelo nome do arquivo Python que contém o código-fonte.
+Dependências
 
-Siga as instruções exibidas na tela para fazer login ou cadastrar um novo usuário.
+Nenhuma dependência externa é necessária para a execução deste programa.
 
-Após fazer login ou cadastro com sucesso, você terá acesso ao menu principal.
+Outras Informações
 
-No menu principal, selecione as opções disponíveis para adicionar grãos, remover grãos, exibir a quantidade de grãos, visualizar a história do produto, apresentar o problema ou a solução.
-
-Ao finalizar a execução do programa, você terá a opção de reiniciar o programa ou encerrá-lo.
-
-Requisitos e Dependências
-Python 3.x
-Contribuição
+O programa armazena os dados dos usuários em um dicionário em memória. No entanto, os usuários cadastrados serão salvos em um arquivo "usuarios.txt" para persistência dos dados.
