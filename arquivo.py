@@ -51,7 +51,7 @@ def exibir_menu():
     print()
     print("Opções disponíveis:")
     print("1. História do Produto")
-    print("2. Problema")
+    print("2. Desafio")
     print("3. Solução")
     print("0. Sair")
 
@@ -66,27 +66,29 @@ def exibir_historia():
     print()
     print("História do Produto:")
     print()
-    print("O produto de controle de armazenamento de grãos foi desenvolvido com o objetivo de oferecer uma solução eficiente para monitorar e gerenciar a quantidade de grãos armazenados.")
-    print("Ele foi projetado para atender às necessidades de agricultores e empresas agrícolas, permitindo um controle preciso e facilitado do estoque de grãos.")
-    print("Com o uso desse produto, é possível ter uma visão clara da quantidade de grãos armazenados, facilitando o planejamento e a tomada de decisões relacionadas ao armazenamento e comercialização dos grãos.")
+    print("O produto inovador de gerenciamento de temperatura para armazenamento de grãos foi concebido como resultado de extensivas pesquisas científicas e tecnológicas, com o objetivo primordial de fornecer uma solução altamente avançada para controlar e otimizar a temperatura durante o armazenamento de grãos.")
+    print("Essa solução de vanguarda foi meticulosamente desenvolvida para atender às demandas complexas de agricultores e empresas agrícolas, oferecendo um controle preciso e sofisticado da temperatura para evitar o desperdício e a deterioração dos grãos.")
+    print("Ao utilizar essa tecnologia de ponta, os usuários são capacitados a monitorar e ajustar de forma eficiente a temperatura do ambiente de armazenamento, garantindo a preservação da qualidade dos grãos e a maximização do seu valor comercial.")
 
 # Função para exibir o problema
 def exibir_problema():
     print()
-    print("Problema:")
+    print("Desafio:")
     print()
-    print("Um dos principais problemas enfrentados pelos agricultores e empresas agrícolas é o controle e gerenciamento eficiente do estoque de grãos.")
-    print("Sem uma solução adequada, é difícil ter uma visão precisa da quantidade de grãos armazenados, o que pode levar a problemas como falta ou excesso de estoque, dificuldades no planejamento e prejuízos financeiros.")
-    print("Além disso, a falta de um controle eficiente também pode impactar a qualidade dos grãos, prejudicando a sua comercialização.")
+    print("A manutenção adequada da temperatura durante o armazenamento de grãos é um desafio complexo enfrentado por agricultores e empresas agrícolas.")
+    print("Sem uma solução eficiente, é difícil controlar e regular a temperatura ambiente, o que pode resultar em perdas significativas de grãos devido a deterioração, germinação, proliferação de pragas e outras condições indesejáveis.")
+    print("Além disso, a falta de controle preciso da temperatura pode levar à redução da qualidade dos grãos e à desvalorização do produto final, resultando em prejuízos financeiros consideráveis.")
 
 # Função para exibir a solução
 def exibir_solucao():
     print()
     print("Solução:")
     print()
-    print("A solução oferecida pelo produto de controle de armazenamento de grãos é um sistema que permite adicionar, remover e exibir a quantidade atual de grãos armazenados.")
-    print("Com esse sistema, os usuários podem facilmente adicionar grãos ao estoque quando ocorrerem novos armazenamentos e remover grãos quando houver vendas ou retiradas.")
-    print("Todas as operações são registradas e atualizadas automaticamente, fornecendo uma visão atualizada e precisa da quantidade de grãos armazenados.")
+    print("A solução revolucionária oferecida pelo nosso produto de gerenciamento de temperatura para armazenamento de grãos é um sistema avançado e inteligente que permite o monitoramento contínuo e o controle preciso da temperatura ambiente.")
+    print("Com sensores de última geração e algoritmos sofisticados, os usuários têm acesso a um sistema automatizado que ajusta a temperatura de forma otimizada, evitando o desperdício e a deterioração dos grãos.")
+    print("Além disso, nossa solução fornece alertas em tempo real sobre condições anormais, permitindo uma intervenção rápida e efetiva para evitar danos aos grãos.")
+    print("Com recursos de análise avançada e relatórios detalhados, os usuários podem tomar decisões informadas para otimizar o ambiente de armazenamento e garantir a máxima qualidade e valor dos grãos.")
+    print("Nosso produto também é altamente personalizável e adaptável às necessidades específicas de cada usuário, garantindo uma solução completa e eficiente para o controle da temperatura no armazenamento de grãos.")
 
 # Função principal do programa
 def main():
